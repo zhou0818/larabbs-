@@ -12,8 +12,7 @@
                     <div class="media">
                         <div align="center">
                             <img class="thumbnail img-responsive"
-                                 src="{{ $user->avatar }}"
-                                 width="300px" height="300px">
+                                 src="{{ $user->avatar }}">
                         </div>
                         <div class="media-body">
                             <hr>

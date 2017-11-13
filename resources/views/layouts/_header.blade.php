@@ -35,7 +35,7 @@
                                aria-expanded="false">
                          <span class="user-avatar pull-left" style="margin-right:8px; margin-top:-5px;">
                              <img src="{{ Auth::user()->avatar }}"
-                                  class="img-responsive img-circle" width="30px" height="30px">
+                                  class="img-responsive img-circle" style="width: 30px;height: 30px">
                          </span>
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
