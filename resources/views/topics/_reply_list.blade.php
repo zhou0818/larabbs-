@@ -24,7 +24,7 @@
                     </span>
                 </div>
                 <div class="reply-content">
-                    {!! $reply->content !!}
+                    {!! $reply->contents !!}
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
                 </a>
 
                 <div class="reply-content" style="margin: 6px 0;">
-                    {!! $reply->content !!}
+                    {!! $reply->contents !!}
                 </div>
 
                 <div class="meta">
