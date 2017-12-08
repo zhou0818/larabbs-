@@ -25,7 +25,7 @@ class EditRepliesContent extends Migration
     public function down()
     {
         Schema::table('replies', function (Blueprint $table) {
-            //
+            $table->renameColumn('contents', 'content');
         });
     }
 }
