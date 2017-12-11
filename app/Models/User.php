@@ -10,6 +10,7 @@ use Spatie\Permission\Traits\HasRoles;
 class User extends Authenticatable
 {
     use HasRoles;
+    use Traits\ActiveUserHelper;
     protected $fillable = [
         'name', 'email', 'password', 'introduction', 'avatar'
     ];
