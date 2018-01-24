@@ -16,16 +16,16 @@ return [
             'title' => '话题',
             'sortable' => false,
             'output' => function ($value, $model) {
-                return '<div style="max-width:260px">' . model_link($value, $model) . '</div>';
+                return '<div style="max-width:400px">' . model_link($value, $model) . '</div>';
             },
         ],
         'user' => [
             'title' => '作者',
             'sortable' => false,
             'output' => function ($value, $model) {
-                $avatar = $model->user->avatar;
+                $avatar = e($model->user->avatar);
                 $value = empty($avatar) ? 'N/A' : '<img src="' . $avatar . '" style="height:22px;width:22px"> ' . e($model->user->name);
-                return model_link($value, $model);
+                return model_link($value, $model->user);
             },
         ],
         'category' => [
