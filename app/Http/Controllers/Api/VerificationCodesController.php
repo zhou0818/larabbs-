@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers\Api;
 
-use GuzzleHttp\Exception\ClientException;
-use Illuminate\Http\Request;
-use Overtrue\EasySms\EasySms;
 use App\Http\Requests\Api\VerificationCodeRequest;
+use GuzzleHttp\Exception\ClientException;
+use Overtrue\EasySms\EasySms;
 
 class VerificationCodesController extends Controller
 {

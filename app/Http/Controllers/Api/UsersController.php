@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers\Api;
 
-use Illuminate\Http\Request;
-use App\Models\User;
 use App\Http\Requests\Api\UserRequest;
+use App\Models\User;
 
 class UsersController extends Controller
 {
